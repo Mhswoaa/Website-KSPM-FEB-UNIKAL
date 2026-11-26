@@ -1,0 +1,1724 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KSPM FEB UNIKAL</title>
+    <meta
+      name="description"
+      content="Website resmi Company Profile Kelompok Studi Pasar Modal (KSPM) Fakultas Ekonomi dan Bisnis Universitas Pekalongan."
+    />
+
+    <!-- Google Fonts: Playfair Display (Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom JavaScript (berisi konfigurasi Tailwind & logika aplikasi) -->
+    <script src="./js/script.js"></script>
+  </head>
+
+  <body
+    class="min-h-screen bg-[#26000A] text-[#FAF6F0] font-sans antialiased selection:bg-[#FF4500] selection:text-white overflow-x-hidden"
+  >
+    <header
+      id="main-navbar"
+      class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-gradient-to-b from-[#26000A]/90 to-transparent py-5"
+    >
+      <div
+        class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 flex items-center justify-between"
+      >
+        <!-- Brand Logo KSPM FEB UNIKAL -->
+        <a
+          href="#home"
+          data-scroll-target="home"
+          class="group inline-flex items-center gap-3 select-none focus:outline-none"
+          aria-label="KSPM FEB UNIKAL Home"
+        >
+          <div
+            class="relative flex items-center justify-center w-11 h-11 rounded-full bg-[#FAF6F0] border-2 border-[#FFD700]/60 shadow-md transition-transform duration-300 group-hover:scale-105"
+          >
+            <svg
+              viewBox="0 0 64 64"
+              class="w-8 h-8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <rect
+                x="14"
+                y="34"
+                width="5"
+                height="14"
+                rx="1.5"
+                fill="#800020"
+                opacity="0.38"
+              />
+              <rect
+                x="23"
+                y="27"
+                width="5"
+                height="21"
+                rx="1.5"
+                fill="#800020"
+                opacity="0.62"
+              />
+              <rect
+                x="32"
+                y="21"
+                width="5"
+                height="27"
+                rx="1.5"
+                fill="#800020"
+                opacity="0.85"
+              />
+              <rect
+                x="41"
+                y="14"
+                width="5"
+                height="34"
+                rx="1.5"
+                fill="#520015"
+              />
+              <path
+                d="M11 41C21 39 33 30 49 14M49 14H39M49 14V24"
+                stroke="#FF4500"
+                stroke-width="3.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="flex flex-col leading-tight">
+            <span
+              class="font-serif font-bold tracking-wider text-base sm:text-lg text-[#FAF6F0]"
+            >
+              KSPM FEB UNIKAL
+            </span>
+            <span
+              class="text-[10px] sm:text-[11px] uppercase tracking-[0.18em] font-medium text-[#E6CED3]"
+            >
+              Kelompok Studi Pasar Modal
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav
+          class="hidden lg:flex items-center gap-1"
+          aria-label="Navigasi Utama"
+        >
+          <button
+            type="button"
+            data-scroll-target="home"
+            class="nav-link relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 text-[#FAF6F0] bg-[#800020] shadow-inner"
+          >
+            <span>Home</span>
+            <span
+              class="nav-dot absolute bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-[#FFD700]"
+            ></span>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="about"
+            class="nav-link relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 text-[#E6CED3] hover:text-[#FAF6F0] hover:bg-[#FAF6F0]/10"
+          >
+            <span>About</span>
+            <span
+              class="nav-dot hidden absolute bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-[#FFD700]"
+            ></span>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="vision-mission"
+            class="nav-link relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 text-[#E6CED3] hover:text-[#FAF6F0] hover:bg-[#FAF6F0]/10"
+          >
+            <span>Vision &amp; Mission</span>
+            <span
+              class="nav-dot hidden absolute bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-[#FFD700]"
+            ></span>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="activities"
+            class="nav-link relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 text-[#E6CED3] hover:text-[#FAF6F0] hover:bg-[#FAF6F0]/10"
+          >
+            <span>Activities</span>
+            <span
+              class="nav-dot hidden absolute bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-[#FFD700]"
+            ></span>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="gallery"
+            class="nav-link relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 text-[#E6CED3] hover:text-[#FAF6F0] hover:bg-[#FAF6F0]/10"
+          >
+            <span>Gallery</span>
+            <span
+              class="nav-dot hidden absolute bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-[#FFD700]"
+            ></span>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="contact"
+            class="nav-link relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 text-[#E6CED3] hover:text-[#FAF6F0] hover:bg-[#FAF6F0]/10"
+          >
+            <span>Contact</span>
+            <span
+              class="nav-dot hidden absolute bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-[#FFD700]"
+            ></span>
+          </button>
+        </nav>
+
+        <!-- Desktop Instagram Shortcut -->
+        <div class="hidden lg:flex items-center gap-3">
+          <a
+            href="https://www.instagram.com/kspmunikal"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-wide uppercase bg-[#FFD700] text-[#26000A] hover:bg-[#FF4500] hover:text-white transition-colors duration-200 shadow-sm"
+          >
+            <svg
+              class="w-3.5 h-3.5 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+            </svg>
+            <span>@kspmunikal</span>
+          </a>
+        </div>
+
+        <!-- Mobile Hamburger Button -->
+        <button
+          type="button"
+          id="mobile-menu-toggle"
+          class="lg:hidden inline-flex items-center justify-center p-2.5 rounded-xl bg-[#520015]/85 border border-[#FFD700]/25 text-[#FAF6F0] hover:bg-[#800020] transition-colors"
+          aria-label="Buka menu navigasi"
+          aria-expanded="false"
+        >
+          <i data-lucide="menu" id="mobile-icon-open" class="w-6 h-6"></i>
+          <i data-lucide="x" id="mobile-icon-close" class="w-6 h-6 hidden"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Dropdown Navigation Drawer -->
+      <div
+        id="mobile-menu-drawer"
+        class="hidden lg:hidden bg-[#26000A]/98 backdrop-blur-xl border-b border-[#FF4500]/25 px-5 pt-4 pb-6 shadow-2xl"
+      >
+        <nav class="flex flex-col space-y-1.5" aria-label="Navigasi Mobile">
+          <button
+            type="button"
+            data-scroll-target="home"
+            class="mobile-nav-link flex items-center justify-between w-full px-4 py-3 rounded-xl text-left text-base font-medium transition-colors bg-[#800020] text-[#FAF6F0] border border-[#FFD700]/35"
+          >
+            <span>Home</span>
+            <i data-lucide="chevron-right" class="w-4 h-4 text-[#FFD700]"></i>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="about"
+            class="mobile-nav-link flex items-center justify-between w-full px-4 py-3 rounded-xl text-left text-base font-medium transition-colors text-[#E6CED3] hover:bg-[#520015]/60 hover:text-[#FAF6F0]"
+          >
+            <span>About</span>
+            <i
+              data-lucide="chevron-right"
+              class="w-4 h-4 text-[#E6CED3]/50"
+            ></i>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="vision-mission"
+            class="mobile-nav-link flex items-center justify-between w-full px-4 py-3 rounded-xl text-left text-base font-medium transition-colors text-[#E6CED3] hover:bg-[#520015]/60 hover:text-[#FAF6F0]"
+          >
+            <span>Vision &amp; Mission</span>
+            <i
+              data-lucide="chevron-right"
+              class="w-4 h-4 text-[#E6CED3]/50"
+            ></i>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="activities"
+            class="mobile-nav-link flex items-center justify-between w-full px-4 py-3 rounded-xl text-left text-base font-medium transition-colors text-[#E6CED3] hover:bg-[#520015]/60 hover:text-[#FAF6F0]"
+          >
+            <span>Activities</span>
+            <i
+              data-lucide="chevron-right"
+              class="w-4 h-4 text-[#E6CED3]/50"
+            ></i>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="gallery"
+            class="mobile-nav-link flex items-center justify-between w-full px-4 py-3 rounded-xl text-left text-base font-medium transition-colors text-[#E6CED3] hover:bg-[#520015]/60 hover:text-[#FAF6F0]"
+          >
+            <span>Gallery</span>
+            <i
+              data-lucide="chevron-right"
+              class="w-4 h-4 text-[#E6CED3]/50"
+            ></i>
+          </button>
+          <button
+            type="button"
+            data-scroll-target="contact"
+            class="mobile-nav-link flex items-center justify-between w-full px-4 py-3 rounded-xl text-left text-base font-medium transition-colors text-[#E6CED3] hover:bg-[#520015]/60 hover:text-[#FAF6F0]"
+          >
+            <span>Contact</span>
+            <i
+              data-lucide="chevron-right"
+              class="w-4 h-4 text-[#E6CED3]/50"
+            ></i>
+          </button>
+        </nav>
+
+        <div
+          class="mt-5 pt-4 border-t border-[#FAF6F0]/10 flex flex-wrap gap-3"
+        >
+          <a
+            href="https://www.instagram.com/kspmunikal"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-xs font-semibold uppercase tracking-wider bg-[#FFD700] text-[#26000A]"
+          >
+            <svg
+              class="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+            </svg>
+            <span>Instagram</span>
+          </a>
+          <a
+            href="https://linktr.ee/kspmfebunikal"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-xs font-semibold uppercase tracking-wider bg-[#800020] text-[#FAF6F0] border border-[#FF4500]/40"
+          >
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+            <span>Linktree</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="home"
+        class="relative min-h-screen flex items-center pt-28 pb-16 sm:pt-32 sm:pb-20 lg:pt-36 lg:pb-24 bg-gradient-to-br from-[#3D0010] via-[#800020] to-[#26000A] overflow-hidden"
+      >
+        <!-- Ornamen Latar Editorial Golden Hour -->
+        <div
+          class="pointer-events-none absolute inset-0 overflow-hidden"
+          aria-hidden="true"
+        >
+          <div class="absolute inset-0 bg-editorial-grid opacity-[0.09]"></div>
+          <div
+            class="absolute -top-28 left-1/2 -translate-x-1/2 w-[780px] h-[460px] rounded-full blur-3xl bg-spotlight-maroon"
+          ></div>
+          <div
+            class="absolute -bottom-32 -left-24 w-[480px] h-[480px] rounded-full blur-3xl opacity-30 bg-spotlight-hero-bottom"
+          ></div>
+          <svg
+            class="absolute bottom-0 right-0 w-full max-w-4xl h-auto opacity-[0.09]"
+            viewBox="0 0 800 320"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 260 L120 220 L210 245 L340 165 L450 185 L590 95 L700 115 L800 35"
+              stroke="#FFD700"
+              stroke-width="2.5"
+            />
+            <path
+              d="M0 290 L150 265 L280 275 L410 215 L540 230 L680 155 L800 120"
+              stroke="#FF4500"
+              stroke-width="1.8"
+              stroke-dasharray="6 6"
+            />
+            <g stroke="#FFD700" stroke-width="1.5" fill="#FFD700">
+              <line x1="120" y1="180" x2="120" y2="270" />
+              <rect x="114" y="195" width="12" height="45" rx="1" />
+              <line x1="210" y1="210" x2="210" y2="290" />
+              <rect x="204" y="225" width="12" height="35" rx="1" />
+              <line x1="340" y1="125" x2="340" y2="225" />
+              <rect x="334" y="140" width="12" height="55" rx="1" />
+              <line x1="450" y1="150" x2="450" y2="235" />
+              <rect x="444" y="165" width="12" height="40" rx="1" />
+              <line x1="590" y1="60" x2="590" y2="160" />
+              <rect x="584" y="75" width="12" height="50" rx="1" />
+              <line x1="700" y1="80" x2="700" y2="168" />
+              <rect x="694" y="95" width="12" height="42" rx="1" />
+            </g>
+          </svg>
+        </div>
+
+        <!-- Kontainer Utama Hero -->
+        <div
+          class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 w-full"
+        >
+          <div
+            class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center"
+          >
+            <!-- Kolom Kiri: Headline & Identitas -->
+            <div class="lg:col-span-7 space-y-6 sm:space-y-7">
+              <div
+                class="inline-flex flex-wrap items-center gap-2.5 px-4 py-2 rounded-full bg-[#26000A]/55 border border-[#FFD700]/30 backdrop-blur-sm"
+              >
+                <span
+                  class="w-2 h-2 rounded-full bg-[#FFD700] shadow-[0_0_8px_#FF4500] shrink-0"
+                ></span>
+                <span
+                  class="text-xs sm:text-sm font-medium tracking-wide text-[#FAF6F0]"
+                >
+                  Fakultas Ekonomi dan Bisnis &bull; Universitas Pekalongan
+                </span>
+              </div>
+
+              <h1
+                class="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-[3.35rem] font-bold leading-[1.15] tracking-tight text-[#FAF6F0]"
+              >
+                Membangun Literasi, Menumbuhkan Inovasi,
+                <span
+                  class="italic font-medium text-golden-hour block sm:inline mt-1 sm:mt-0"
+                >
+                  Menuju Masa Depan Investasi.
+                </span>
+              </h1>
+
+              <p
+                class="text-sm sm:text-base lg:text-lg text-[#F0DDE1] leading-relaxed max-w-xl font-light"
+              >
+                Kelompok Studi Pasar Modal (KSPM) FEB UNIKAL merupakan wadah
+                resmi pengembangan edukasi, riset, dan literasi pasar modal bagi
+                mahasiswa serta masyarakat di lingkungan Universitas Pekalongan.
+              </p>
+
+              <!-- CTA Buttons -->
+              <div class="flex flex-wrap items-center gap-3.5 sm:gap-4 pt-1">
+                <button
+                  type="button"
+                  data-scroll-target="about"
+                  class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-[#FFD700] text-[#26000A] font-bold text-sm tracking-wide hover:bg-[#FF4500] hover:text-white transition-all duration-300 shadow-lg shadow-black/30 cursor-pointer"
+                >
+                  <span>About Us</span>
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </button>
+
+                <button
+                  type="button"
+                  data-scroll-target="activities"
+                  class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-[#26000A]/30 text-[#FAF6F0] border border-[#FAF6F0]/40 font-semibold text-sm tracking-wide hover:bg-[#FF4500]/20 hover:border-[#FFD700] hover:text-[#FFD700] transition-all duration-300 cursor-pointer"
+                >
+                  <span>Explore</span>
+                  <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                </button>
+              </div>
+
+              <!-- Institutional Pillars -->
+              <div
+                class="pt-7 mt-4 border-t border-[#FFD700]/20 grid grid-cols-3 gap-4 sm:gap-8 max-w-xl"
+              >
+                <div>
+                  <p
+                    class="font-serif text-lg sm:text-2xl font-bold text-[#FFD700]"
+                  >
+                    Literasi
+                  </p>
+                  <p
+                    class="text-xs sm:text-sm text-[#E0C5CB] mt-1 leading-snug"
+                  >
+                    Edukasi Pasar Modal Inklusif
+                  </p>
+                </div>
+                <div>
+                  <p
+                    class="font-serif text-lg sm:text-2xl font-bold text-[#FFD700]"
+                  >
+                    Riset
+                  </p>
+                  <p
+                    class="text-xs sm:text-sm text-[#E0C5CB] mt-1 leading-snug"
+                  >
+                    Analisis &amp; Studi Investasi
+                  </p>
+                </div>
+                <div>
+                  <p
+                    class="font-serif text-lg sm:text-2xl font-bold text-[#FFD700]"
+                  >
+                    Sinergi
+                  </p>
+                  <p
+                    class="text-xs sm:text-sm text-[#E0C5CB] mt-1 leading-snug"
+                  >
+                    Galeri Investasi &amp; Praktisi
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kolom Kanan: Editorial Framed Showcase -->
+            <div
+              class="lg:col-span-5 relative w-full max-w-md mx-auto lg:max-w-none"
+            >
+              <div
+                class="hidden sm:block absolute -top-4 -right-4 w-full h-full rounded-3xl border border-[#FFD700]/30 pointer-events-none"
+                aria-hidden="true"
+              ></div>
+
+              <div
+                class="relative rounded-3xl overflow-hidden bg-[#26000A] border border-[#FFD700]/25 shadow-2xl shadow-black/50"
+              >
+                <div class="h-1.5 w-full bg-golden-hour-line"></div>
+                <div
+                  class="px-5 py-3.5 bg-[#FAF6F0] text-[#800020] flex items-center justify-between"
+                >
+                  <div class="flex items-center gap-2">
+                    <span
+                      class="w-2.5 h-2.5 rounded-full bg-[#FF4500] shrink-0"
+                    ></span>
+                    <span
+                      class="text-[11px] font-bold uppercase tracking-[0.16em]"
+                    >
+                      Official Profile &bull; KSPM FEB UNIKAL
+                    </span>
+                  </div>
+                  <i
+                    data-lucide="trending-up"
+                    class="w-4 h-4 text-[#FF4500] shrink-0"
+                  ></i>
+                </div>
+
+                <div class="relative aspect-[4/4.1] overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=85"
+                    data-fallback="https://placehold.co/900x960/800020/FFD700?text=KSPM+FEB+UNIKAL"
+                    alt="Dokumentasi Kegiatan Edukasi Pasar Modal KSPM FEB UNIKAL"
+                    class="w-full h-full object-cover object-center scale-100 hover:scale-105 transition-transform duration-700"
+                  />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-[#26000A] via-[#800020]/30 to-transparent"
+                  ></div>
+
+                  <div
+                    class="absolute bottom-4 left-4 right-4 sm:bottom-5 sm:left-5 sm:right-5 p-4 sm:p-5 rounded-2xl bg-[#26000A]/90 backdrop-blur-md border border-[#FFD700]/25"
+                  >
+                    <p
+                      class="text-[10px] sm:text-[11px] uppercase tracking-[0.18em] text-[#FFD700] font-semibold"
+                    >
+                      Galeri Investasi &amp; Studi Keuangan
+                    </p>
+                    <p
+                      class="font-serif text-base sm:text-xl font-semibold text-[#FAF6F0] mt-1"
+                    >
+                      Mencetak Generasi Muda Cerdas Berinvestasi
+                    </p>
+                    <p class="text-xs text-[#E6CED3] mt-1.5 leading-relaxed">
+                      Pusat pembelajaran, diskusi, dan pengembangan kompetensi
+                      pasar modal mahasiswa Universitas Pekalongan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="relative py-24 lg:py-32 bg-[#FAF6F0] text-[#26000A]"
+      >
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+          <div class="max-w-3xl reveal">
+            <div
+              class="inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-[0.2em] text-[#800020] mb-4"
+            >
+              <span class="w-8 h-[2px] bg-[#FF4500]"></span>
+              <span>About Us</span>
+            </div>
+            <h2
+              class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#26000A] leading-tight"
+            >
+              Mengenal Lebih Dekat
+              <span class="italic font-medium text-[#800020]"
+                >KSPM FEB UNIKAL</span
+              >
+            </h2>
+          </div>
+
+          <div
+            class="mt-14 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-start"
+          >
+            <!-- Kolom Kiri (5 Kolom) -->
+            <div class="lg:col-span-5 space-y-6 reveal">
+              <div
+                class="relative rounded-3xl overflow-hidden shadow-xl border border-[#800020]/15 bg-[#3D0010]"
+              >
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80"
+                    data-fallback="https://placehold.co/900x680/800020/FFD700?text=Kajian+Pasar+Modal"
+                    alt="Diskusi dan Kajian Pasar Modal Mahasiswa FEB UNIKAL"
+                    loading="lazy"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+                <div class="h-1 w-full bg-golden-hour-line"></div>
+                <div
+                  class="p-6 bg-gradient-to-br from-[#800020] to-[#3D0010] text-[#FAF6F0]"
+                >
+                  <p
+                    class="text-xs uppercase tracking-[0.18em] text-[#FFD700] font-semibold"
+                  >
+                    Identitas Institusi
+                  </p>
+                  <p class="font-serif text-xl font-semibold mt-1">
+                    Kelompok Studi Pasar Modal
+                  </p>
+                  <p class="text-sm text-[#E6CED3] mt-1">
+                    Fakultas Ekonomi dan Bisnis &mdash; Universitas Pekalongan
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="p-7 rounded-3xl bg-[#F4ECE1] border border-[#800020]/15 border-l-4 border-l-[#FF4500]"
+              >
+                <p
+                  class="font-serif italic text-lg text-[#3D0010] leading-relaxed"
+                >
+                  &ldquo;Menjembatani teori ekonomi di ruang akademik dengan
+                  praktik nyata investasi di pasar modal Indonesia secara
+                  beretika dan terukur.&rdquo;
+                </p>
+                <div
+                  class="mt-4 pt-4 border-t border-[#800020]/15 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#800020]"
+                >
+                  <span>Literasi &bull; Riset &bull; Investasi</span>
+                  <span class="text-[#FF4500]">FEB UNIKAL</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kolom Kanan (7 Kolom) -->
+            <div class="lg:col-span-7 space-y-8 reveal">
+              <div class="space-y-3">
+                <h3 class="font-serif text-2xl font-bold text-[#26000A]">
+                  Pengenalan Organisasi
+                </h3>
+                <p class="text-base text-[#4D2630] leading-relaxed">
+                  <strong>KSPM FEB UNIKAL</strong> (Kelompok Studi Pasar Modal
+                  Fakultas Ekonomi dan Bisnis Universitas Pekalongan) adalah
+                  organisasi kemahasiswaan berbasis keilmuan yang berfokus pada
+                  pengkajian, edukasi, dan pengembangan literasi pasar modal.
+                  Berada di bawah naungan Fakultas Ekonomi dan Bisnis
+                  Universitas Pekalongan, KSPM hadir sebagai pusat pembelajaran
+                  aktif bagi mahasiswa yang ingin memahami instrumen investasi
+                  serta dinamika industri keuangan secara mendalam.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-2">
+                <div
+                  class="p-6 rounded-2xl bg-white border border-[#800020]/12 shadow-sm hover:border-[#FF4500]/40 transition-colors"
+                >
+                  <span
+                    class="inline-block text-xs font-bold uppercase tracking-widest text-[#FF4500] mb-2"
+                  >
+                    Latar Belakang &amp; Sejarah
+                  </span>
+                  <h4 class="font-serif text-lg font-bold text-[#26000A] mb-2">
+                    Lahir dari Kebutuhan Literasi Finansial
+                  </h4>
+                  <p class="text-sm text-[#4D2630] leading-relaxed">
+                    KSPM FEB UNIKAL dibentuk sebagai respons atas meningkatnya
+                    kebutuhan mahasiswa terhadap wadah pembelajaran pasar modal
+                    yang terstruktur dan aplikatif. Bersinergi dengan ekosistem
+                    Galeri Investasi Bursa Efek Indonesia (BEI), organisasi ini
+                    tumbuh menjadi motor penggerak edukasi investasi di kampus.
+                  </p>
+                </div>
+
+                <div
+                  class="p-6 rounded-2xl bg-white border border-[#800020]/12 shadow-sm hover:border-[#FF4500]/40 transition-colors"
+                >
+                  <span
+                    class="inline-block text-xs font-bold uppercase tracking-widest text-[#FF4500] mb-2"
+                  >
+                    Tujuan Pembentukan
+                  </span>
+                  <h4 class="font-serif text-lg font-bold text-[#26000A] mb-2">
+                    Membentuk Investor Muda Rasional
+                  </h4>
+                  <p class="text-sm text-[#4D2630] leading-relaxed">
+                    Organisasi ini bertujuan membangun pemahaman yang benar
+                    mengenai mekanisme pasar modal, melatih kemampuan analisis
+                    investasi berbasis data, serta menumbuhkan budaya
+                    pengelolaan keuangan yang bijak dan terhindar dari praktik
+                    investasi spekulatif yang merugikan.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="relative overflow-hidden p-7 rounded-2xl bg-gradient-to-r from-[#800020] via-[#66001A] to-[#3D0010] text-[#FAF6F0] shadow-lg"
+              >
+                <div
+                  class="absolute top-0 left-0 right-0 h-1 bg-golden-hour-line"
+                ></div>
+                <div class="flex items-start gap-4">
+                  <div
+                    class="p-3 rounded-xl bg-[#FF4500]/20 border border-[#FFD700]/30 shrink-0"
+                  >
+                    <i
+                      data-lucide="trending-up"
+                      class="w-6 h-6 text-[#FFD700]"
+                    ></i>
+                  </div>
+                  <div>
+                    <h4 class="font-serif text-xl font-bold text-[#FAF6F0]">
+                      Peran KSPM dalam Meningkatkan Literasi Pasar Modal
+                    </h4>
+                    <p
+                      class="text-sm sm:text-base text-[#F0DDE1] leading-relaxed mt-2"
+                    >
+                      Sebagai perpanjangan tangan edukasi pasar modal di
+                      lingkungan perguruan tinggi, KSPM FEB UNIKAL secara
+                      konsisten menyelenggarakan Sekolah Pasar Modal, seminar,
+                      kompetisi analisis, serta edukasi publik untuk memperluas
+                      inklusi pasar modal bagi sivitas akademika dan masyarakat
+                      Pekalongan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="vision-mission"
+        class="relative py-24 lg:py-32 bg-gradient-to-b from-[#26000A] via-[#4D0014] to-[#26000A] text-[#FAF6F0] overflow-hidden"
+      >
+        <div
+          class="pointer-events-none absolute inset-0 overflow-hidden"
+          aria-hidden="true"
+        >
+          <div class="absolute inset-0 bg-editorial-grid opacity-[0.07]"></div>
+          <div
+            class="absolute -top-32 left-1/2 -translate-x-1/2 w-[760px] h-[440px] rounded-full blur-3xl bg-spotlight-maroon"
+          ></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+          <div
+            class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-12 border-b border-[#FFD700]/20 reveal"
+          >
+            <div>
+              <div
+                class="inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-[0.2em] text-[#FFD700] mb-4"
+              >
+                <span class="w-8 h-[2px] bg-[#FF4500]"></span>
+                <span>Vision &amp; Mission</span>
+              </div>
+              <h2
+                class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#FAF6F0]"
+              >
+                Arah &amp; Komitmen
+                <span class="italic font-medium text-golden-hour"
+                  >Organisasi</span
+                >
+              </h2>
+            </div>
+            <p class="text-sm text-[#E6CED3] max-w-md leading-relaxed">
+              Landasan filosofis dan arah gerak KSPM FEB UNIKAL dalam mewujudkan
+              ekosistem edukasi pasar modal yang unggul dan berkelanjutan.
+            </p>
+          </div>
+
+          <div class="mt-14 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+            <!-- Panel Visi (5 Kolom) -->
+            <div
+              class="reveal lg:col-span-5 p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-[#800020] to-[#3D0010] border border-[#FFD700]/25 shadow-2xl flex flex-col justify-between relative overflow-hidden"
+            >
+              <div
+                class="absolute top-0 left-0 right-0 h-1 bg-golden-hour-line"
+              ></div>
+              <span
+                class="pointer-events-none select-none absolute -top-4 right-6 font-serif text-[120px] leading-none text-[#FFD700]/12"
+                aria-hidden="true"
+              >
+                &ldquo;
+              </span>
+
+              <div class="relative z-10">
+                <div class="flex items-center justify-between mb-8">
+                  <span
+                    class="px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-[0.18em] bg-[#FFD700] text-[#26000A]"
+                  >
+                    Visi Organisasi
+                  </span>
+                  <i data-lucide="file-text" class="w-5 h-5 text-[#FFD700]"></i>
+                </div>
+
+                <h3
+                  class="font-serif text-2xl sm:text-3xl font-bold text-[#FAF6F0] mb-6"
+                >
+                  Visi KSPM FEB UNIKAL
+                </h3>
+
+                <blockquote class="relative pl-5 border-l-2 border-[#FF4500]">
+                  <p
+                    class="font-serif italic text-lg sm:text-xl text-[#FAF6F0] leading-relaxed"
+                  >
+                    &ldquo;Menjadikan KSPM FEB UNIKAL sebagai ekosistem
+                    pembelajaran pasar modal yang dinamis dan inklusif dengan
+                    iklim profesional untuk membentuk talenta yang kompeten,
+                    inovatif, kolaboratif, dan berintegritas di sektor pasar
+                    modal.&rdquo;
+                  </p>
+                </blockquote>
+
+                <div class="mt-7 flex flex-wrap gap-2">
+                  <span
+                    class="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide uppercase bg-[#26000A]/75 text-[#FFD700] border border-[#FF4500]/40"
+                    >Kompeten</span
+                  >
+                  <span
+                    class="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide uppercase bg-[#26000A]/75 text-[#FFD700] border border-[#FF4500]/40"
+                    >Inovatif</span
+                  >
+                  <span
+                    class="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide uppercase bg-[#26000A]/75 text-[#FFD700] border border-[#FF4500]/40"
+                    >Kolaboratif</span
+                  >
+                  <span
+                    class="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide uppercase bg-[#26000A]/75 text-[#FFD700] border border-[#FF4500]/40"
+                    >Berintegritas</span
+                  >
+                </div>
+              </div>
+
+              <div
+                class="relative z-10 mt-8 pt-6 border-t border-[#FAF6F0]/15 text-xs text-[#E0C5CB] flex items-center justify-between"
+              >
+                <span>Arah Strategis Organisasi</span>
+                <span class="text-[#FFD700] font-medium">KSPM FEB UNIKAL</span>
+              </div>
+            </div>
+
+            <!-- Panel Misi (7 Kolom) -->
+            <div
+              class="reveal lg:col-span-7 p-8 sm:p-10 rounded-3xl bg-[#FAF6F0] text-[#26000A] shadow-2xl flex flex-col justify-between"
+            >
+              <div>
+                <div class="flex items-center justify-between mb-8">
+                  <span
+                    class="px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-[0.18em] bg-[#800020] text-[#FAF6F0]"
+                  >
+                    Misi Organisasi
+                  </span>
+                  <i data-lucide="compass" class="w-5 h-5 text-[#FF4500]"></i>
+                </div>
+
+                <h3
+                  class="font-serif text-2xl sm:text-3xl font-bold text-[#26000A] mb-6"
+                >
+                  Misi KSPM FEB UNIKAL
+                </h3>
+
+                <ol class="space-y-4">
+                  <li
+                    class="group p-5 rounded-2xl bg-[#F4ECE1]/90 hover:bg-white border border-[#800020]/12 hover:border-[#FF4500]/40 transition-all duration-300 shadow-sm flex items-start gap-4"
+                  >
+                    <div
+                      class="w-10 h-10 rounded-xl bg-[#800020] text-[#FFD700] font-serif font-bold text-base flex items-center justify-center shrink-0 group-hover:bg-[#FF4500] group-hover:text-white transition-colors"
+                    >
+                      01
+                    </div>
+                    <div class="space-y-1">
+                      <h4
+                        class="font-serif text-base sm:text-lg font-bold text-[#26000A]"
+                      >
+                        Pembelajaran Terstruktur &amp; Berkelanjutan
+                      </h4>
+                      <p
+                        class="text-sm sm:text-[15px] text-[#4D2630] leading-relaxed"
+                      >
+                        Menyediakan pembelajaran pasar modal yang terstruktur,
+                        aplikatif, dan berkelanjutan untuk meningkatkan
+                        kompetensi mahasiswa.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="group p-5 rounded-2xl bg-[#F4ECE1]/90 hover:bg-white border border-[#800020]/12 hover:border-[#FF4500]/40 transition-all duration-300 shadow-sm flex items-start gap-4"
+                  >
+                    <div
+                      class="w-10 h-10 rounded-xl bg-[#800020] text-[#FFD700] font-serif font-bold text-base flex items-center justify-center shrink-0 group-hover:bg-[#FF4500] group-hover:text-white transition-colors"
+                    >
+                      02
+                    </div>
+                    <div class="space-y-1">
+                      <h4
+                        class="font-serif text-base sm:text-lg font-bold text-[#26000A]"
+                      >
+                        Lingkungan Organisasi Profesional
+                      </h4>
+                      <p
+                        class="text-sm sm:text-[15px] text-[#4D2630] leading-relaxed"
+                      >
+                        Menciptakan lingkungan organisasi yang inklusif,
+                        suportif, dan profesional untuk mengembangkan potensi
+                        serta rasa memiliki setiap anggota.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li
+                    class="group p-5 rounded-2xl bg-[#F4ECE1]/90 hover:bg-white border border-[#800020]/12 hover:border-[#FF4500]/40 transition-all duration-300 shadow-sm flex items-start gap-4"
+                  >
+                    <div
+                      class="w-10 h-10 rounded-xl bg-[#800020] text-[#FFD700] font-serif font-bold text-base flex items-center justify-center shrink-0 group-hover:bg-[#FF4500] group-hover:text-white transition-colors"
+                    >
+                      03
+                    </div>
+                    <div class="space-y-1">
+                      <h4
+                        class="font-serif text-base sm:text-lg font-bold text-[#26000A]"
+                      >
+                        Riset, Inovasi &amp; Kolaborasi
+                      </h4>
+                      <p
+                        class="text-sm sm:text-[15px] text-[#4D2630] leading-relaxed"
+                      >
+                        Mendorong riset, inovasi, dan kolaborasi di bidang pasar
+                        modal untuk memberikan manfaat bagi mahasiswa dan
+                        masyarakat.
+                      </p>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+
+              <div
+                class="mt-8 pt-6 border-t border-[#800020]/12 text-xs text-[#6E404C] flex items-center justify-between"
+              >
+                <span>Standar Tata Kelola Organisasi</span>
+                <span class="font-semibold text-[#800020]">
+                  Fakultas Ekonomi dan Bisnis UNIKAL
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-24 lg:py-28 bg-[#F4ECE1] text-[#26000A] border-b border-[#800020]/10"
+      >
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+          <div class="max-w-3xl mx-auto text-center reveal">
+            <div
+              class="inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-[0.2em] text-[#800020] mb-4"
+            >
+              <span class="w-6 h-[2px] bg-[#FF4500]"></span>
+              <span>Our Values</span>
+              <span class="w-6 h-[2px] bg-[#FF4500]"></span>
+            </div>
+            <h2
+              class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#26000A]"
+            >
+              Nilai &amp; Karakter
+              <span class="italic font-medium text-[#800020]"
+                >KSPM FEB UNIKAL</span
+              >
+            </h2>
+            <p class="text-base text-[#4D2630] mt-4 leading-relaxed">
+              Prinsip dasar yang membentuk budaya kerja, etika keilmuan, dan
+              integritas setiap langkah organisasi.
+            </p>
+          </div>
+
+          <div
+            class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
+            <!-- Value 01 -->
+            <article
+              class="reveal group relative p-7 rounded-3xl bg-[#FAF6F0] border border-[#800020]/15 hover:border-[#FF4500]/50 hover:bg-white transition-all duration-300 shadow-sm hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between"
+            >
+              <div>
+                <div class="flex items-center justify-between mb-6">
+                  <div
+                    class="w-12 h-12 rounded-2xl bg-[#800020] text-[#FFD700] flex items-center justify-center group-hover:bg-[#FF4500] group-hover:text-white transition-colors"
+                  >
+                    <i data-lucide="book-open" class="w-5 h-5"></i>
+                  </div>
+                  <span
+                    class="font-serif text-2xl font-bold text-[#800020]/20 group-hover:text-[#FF4500]/45 transition-colors"
+                    >01</span
+                  >
+                </div>
+                <h3 class="font-serif text-xl font-bold text-[#26000A] mb-3">
+                  Literasi &amp; Edukasi
+                </h3>
+                <p class="text-sm text-[#4D2630] leading-relaxed">
+                  Menjadikan pengetahuan pasar modal yang akurat, inklusif, dan
+                  mudah dipahami sebagai fondasi utama dalam membangun kesadaran
+                  investasi generasi muda.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#800020]/12">
+                <span
+                  class="text-[11px] font-bold uppercase tracking-widest text-[#800020] group-hover:text-[#FF4500] transition-colors"
+                  >Pilar Karakter KSPM</span
+                >
+              </div>
+            </article>
+
+            <!-- Value 02 -->
+            <article
+              class="reveal group relative p-7 rounded-3xl bg-[#FAF6F0] border border-[#800020]/15 hover:border-[#FF4500]/50 hover:bg-white transition-all duration-300 shadow-sm hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between"
+            >
+              <div>
+                <div class="flex items-center justify-between mb-6">
+                  <div
+                    class="w-12 h-12 rounded-2xl bg-[#800020] text-[#FFD700] flex items-center justify-center group-hover:bg-[#FF4500] group-hover:text-white transition-colors"
+                  >
+                    <i data-lucide="shield-check" class="w-5 h-5"></i>
+                  </div>
+                  <span
+                    class="font-serif text-2xl font-bold text-[#800020]/20 group-hover:text-[#FF4500]/45 transition-colors"
+                    >02</span
+                  >
+                </div>
+                <h3 class="font-serif text-xl font-bold text-[#26000A] mb-3">
+                  Integritas &amp; Profesionalisme
+                </h3>
+                <p class="text-sm text-[#4D2630] leading-relaxed">
+                  Menjunjung tinggi etika akademik, objektivitas analisis
+                  fundamental maupun teknikal, serta tata kelola organisasi yang
+                  kredibel dan berwibawa.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#800020]/12">
+                <span
+                  class="text-[11px] font-bold uppercase tracking-widest text-[#800020] group-hover:text-[#FF4500] transition-colors"
+                  >Pilar Karakter KSPM</span
+                >
+              </div>
+            </article>
+
+            <!-- Value 03 -->
+            <article
+              class="reveal group relative p-7 rounded-3xl bg-[#FAF6F0] border border-[#800020]/15 hover:border-[#FF4500]/50 hover:bg-white transition-all duration-300 shadow-sm hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between"
+            >
+              <div>
+                <div class="flex items-center justify-between mb-6">
+                  <div
+                    class="w-12 h-12 rounded-2xl bg-[#800020] text-[#FFD700] flex items-center justify-center group-hover:bg-[#FF4500] group-hover:text-white transition-colors"
+                  >
+                    <i data-lucide="lightbulb" class="w-5 h-5"></i>
+                  </div>
+                  <span
+                    class="font-serif text-2xl font-bold text-[#800020]/20 group-hover:text-[#FF4500]/45 transition-colors"
+                    >03</span
+                  >
+                </div>
+                <h3 class="font-serif text-xl font-bold text-[#26000A] mb-3">
+                  Inovasi &amp; Adaptabilitas
+                </h3>
+                <p class="text-sm text-[#4D2630] leading-relaxed">
+                  Terus berinovasi dalam menghadirkan media edukasi keuangan
+                  modern yang relevan dengan dinamika pasar modal dan
+                  perkembangan teknologi finansial.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#800020]/12">
+                <span
+                  class="text-[11px] font-bold uppercase tracking-widest text-[#800020] group-hover:text-[#FF4500] transition-colors"
+                  >Pilar Karakter KSPM</span
+                >
+              </div>
+            </article>
+
+            <!-- Value 04 -->
+            <article
+              class="reveal group relative p-7 rounded-3xl bg-[#FAF6F0] border border-[#800020]/15 hover:border-[#FF4500]/50 hover:bg-white transition-all duration-300 shadow-sm hover:shadow-xl hover:-translate-y-1 flex flex-col justify-between"
+            >
+              <div>
+                <div class="flex items-center justify-between mb-6">
+                  <div
+                    class="w-12 h-12 rounded-2xl bg-[#800020] text-[#FFD700] flex items-center justify-center group-hover:bg-[#FF4500] group-hover:text-white transition-colors"
+                  >
+                    <i data-lucide="handshake" class="w-5 h-5"></i>
+                  </div>
+                  <span
+                    class="font-serif text-2xl font-bold text-[#800020]/20 group-hover:text-[#FF4500]/45 transition-colors"
+                    >04</span
+                  >
+                </div>
+                <h3 class="font-serif text-xl font-bold text-[#26000A] mb-3">
+                  Kolaborasi &amp; Sinergi
+                </h3>
+                <p class="text-sm text-[#4D2630] leading-relaxed">
+                  Membangun jejaring strategis bersama Galeri Investasi BEI,
+                  perusahaan sekuritas, regulator, akademisi, dan komunitas
+                  untuk memperluas dampak edukasi.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#800020]/12">
+                <span
+                  class="text-[11px] font-bold uppercase tracking-widest text-[#800020] group-hover:text-[#FF4500] transition-colors"
+                  >Pilar Karakter KSPM</span
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="activities"
+        class="relative py-24 lg:py-32 bg-[#26000A] text-[#FAF6F0] overflow-hidden"
+      >
+        <div
+          class="pointer-events-none absolute inset-0 overflow-hidden"
+          aria-hidden="true"
+        >
+          <div class="absolute inset-0 bg-editorial-grid opacity-[0.06]"></div>
+          <div
+            class="absolute -bottom-32 right-0 w-[600px] h-[400px] rounded-full blur-3xl bg-spotlight-maroon opacity-60"
+          ></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+          <div
+            class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-14 reveal"
+          >
+            <div class="max-w-2xl">
+              <div
+                class="inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-[0.2em] text-[#FFD700] mb-4"
+              >
+                <span class="w-8 h-[2px] bg-[#FF4500]"></span>
+                <span>Our Activities</span>
+              </div>
+              <h2
+                class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#FAF6F0] leading-tight"
+              >
+                Ruang Lingkup &amp;
+                <span class="italic font-medium text-golden-hour"
+                  >Aktivitas Organisasi</span
+                >
+              </h2>
+            </div>
+            <p
+              class="text-sm sm:text-base text-[#E6CED3] max-w-md leading-relaxed"
+            >
+              Ragam program edukasi, kompetisi, media literasi, dan kolaborasi
+              yang menjadi pilar utama kiprah KSPM FEB UNIKAL.
+            </p>
+          </div>
+
+          <!-- Container Kartu Aktivitas (Diisi oleh JS agar mudah dikelola) -->
+          <div
+            id="activities-grid"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          ></div>
+        </div>
+      </section>
+
+      <section id="gallery" class="py-24 lg:py-32 bg-[#FAF6F0] text-[#26000A]">
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+          <div
+            class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10 reveal"
+          >
+            <div>
+              <div
+                class="inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-[0.2em] text-[#800020] mb-4"
+              >
+                <span class="w-8 h-[2px] bg-[#FF4500]"></span>
+                <span>Our Gallery</span>
+              </div>
+              <h2
+                class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#26000A]"
+              >
+                Dokumentasi Visual
+                <span class="italic font-medium text-[#800020]"
+                  >Organisasi</span
+                >
+              </h2>
+            </div>
+            <p
+              class="text-sm sm:text-base text-[#4D2630] max-w-md leading-relaxed"
+            >
+              Rekam jejak visual kegiatan edukasi, seminar, kompetisi, dan
+              kebersamaan KSPM FEB UNIKAL.
+            </p>
+          </div>
+
+          <!-- Filter Kategori Galeri -->
+          <div
+            id="gallery-filters"
+            class="flex flex-wrap items-center gap-2.5 mb-10 reveal"
+            role="tablist"
+            aria-label="Filter kategori galeri"
+          ></div>
+
+          <!-- Grid Galeri Seragam & Responsif -->
+          <div
+            id="gallery-grid"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          ></div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="relative py-24 lg:py-32 bg-gradient-to-br from-[#3D0010] via-[#800020] to-[#26000A] text-[#FAF6F0] overflow-hidden"
+      >
+        <div
+          class="pointer-events-none absolute inset-0 overflow-hidden"
+          aria-hidden="true"
+        >
+          <div class="absolute inset-0 bg-editorial-grid opacity-[0.08]"></div>
+          <div
+            class="absolute -top-32 left-1/2 -translate-x-1/2 w-[740px] h-[440px] rounded-full blur-3xl bg-spotlight-maroon"
+          ></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <!-- Kolom Kiri -->
+            <div class="lg:col-span-6 space-y-6 reveal">
+              <div
+                class="inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-[0.2em] text-[#FFD700]"
+              >
+                <span class="w-8 h-[2px] bg-[#FF4500]"></span>
+                <span>Contact Us</span>
+              </div>
+
+              <h2
+                class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#FAF6F0] leading-tight"
+              >
+                Terhubung dengan
+                <span class="italic font-medium text-golden-hour"
+                  >KSPM FEB UNIKAL</span
+                >
+              </h2>
+
+              <p
+                class="text-base text-[#F0DDE1] leading-relaxed max-w-xl font-light"
+              >
+                Untuk informasi seputar profil organisasi, kemitraan edukasi
+                pasar modal, maupun publikasi kegiatan resmi, silakan terhubung
+                melalui kanal komunikasi resmi kami.
+              </p>
+
+              <div class="flex flex-wrap items-center gap-4 pt-2">
+                <a
+                  href="https://www.instagram.com/kspmunikal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-2.5 px-7 py-4 rounded-full bg-[#FFD700] text-[#26000A] font-bold text-sm tracking-wide hover:bg-[#FF4500] hover:text-white transition-all duration-300 shadow-lg"
+                >
+                  <svg
+                    class="w-4 h-4 shrink-0"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                  </svg>
+                  <span>Kunjungi Instagram @kspmunikal</span>
+                  <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </a>
+
+                <a
+                  href="https://linktr.ee/kspmfebunikal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-2.5 px-7 py-4 rounded-full bg-[#26000A]/75 text-[#FAF6F0] border border-[#FAF6F0]/35 font-semibold text-sm tracking-wide hover:bg-[#FF4500]/15 hover:border-[#FFD700] hover:text-[#FFD700] transition-all duration-300"
+                >
+                  <i
+                    data-lucide="external-link"
+                    class="w-4 h-4 text-[#FFD700]"
+                  ></i>
+                  <span>Akses Linktree Resmi</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Kolom Kanan: Kartu Detail -->
+            <div class="lg:col-span-6 reveal">
+              <div
+                class="p-8 sm:p-10 rounded-3xl bg-[#26000A]/85 backdrop-blur-md border border-[#FFD700]/20 shadow-2xl space-y-6"
+              >
+                <!-- Card 1: Instagram -->
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 rounded-2xl bg-[#3D0010] border border-[#FAF6F0]/10 hover:border-[#FF4500]/55 transition-colors group"
+                >
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="p-3 rounded-xl bg-[#800020] text-[#FFD700] group-hover:bg-[#FF4500] group-hover:text-white transition-colors shrink-0 flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-5 h-5"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <rect
+                          width="20"
+                          height="20"
+                          x="2"
+                          y="2"
+                          rx="5"
+                          ry="5"
+                        />
+                        <path
+                          d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                        />
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p
+                        class="text-xs uppercase tracking-widest text-[#FFD700] font-semibold"
+                      >
+                        Instagram Resmi
+                      </p>
+                      <p
+                        class="font-serif text-xl font-bold text-[#FAF6F0] mt-0.5"
+                      >
+                        @kspmunikal
+                      </p>
+                      <p class="text-xs text-[#E0C5CB] mt-0.5">
+                        Official Account Kelompok Studi Pasar Modal FEB UNIKAL
+                      </p>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    id="copy-ig-btn"
+                    class="self-start sm:self-center inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#800020] hover:bg-[#FF4500] text-[#FAF6F0] transition-colors cursor-pointer"
+                    title="Salin username Instagram"
+                  >
+                    <i
+                      data-lucide="copy"
+                      id="copy-icon-default"
+                      class="w-3.5 h-3.5"
+                    ></i>
+                    <i
+                      data-lucide="check"
+                      id="copy-icon-done"
+                      class="w-3.5 h-3.5 text-[#FFD700] hidden"
+                    ></i>
+                    <span id="copy-ig-label">Salin</span>
+                  </button>
+                </div>
+
+                <!-- Card 2: Linktree -->
+                <a
+                  href="https://linktr.ee/kspmfebunikal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center justify-between gap-4 p-5 rounded-2xl bg-[#3D0010] border border-[#FAF6F0]/10 hover:border-[#FF4500]/55 transition-colors group"
+                >
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="p-3 rounded-xl bg-[#800020] text-[#FFD700] group-hover:bg-[#FF4500] group-hover:text-white transition-colors shrink-0"
+                    >
+                      <i data-lucide="external-link" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                      <p
+                        class="text-xs uppercase tracking-widest text-[#FFD700] font-semibold"
+                      >
+                        Portal Tautan Resmi
+                      </p>
+                      <p
+                        class="font-serif text-lg sm:text-xl font-bold text-[#FAF6F0] mt-0.5 break-all"
+                      >
+                        linktr.ee/kspmfebunikal
+                      </p>
+                    </div>
+                  </div>
+                  <i
+                    data-lucide="arrow-up-right"
+                    class="w-5 h-5 text-[#E6CED3] group-hover:text-[#FFD700] shrink-0 transition-colors"
+                  ></i>
+                </a>
+
+                <!-- Card 3: Afiliasi Institusi -->
+                <div
+                  class="p-5 rounded-2xl bg-[#3D0010] border border-[#FAF6F0]/10 flex items-start gap-4"
+                >
+                  <div
+                    class="p-3 rounded-xl bg-[#800020] text-[#FFD700] shrink-0"
+                  >
+                    <i data-lucide="building-2" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <p
+                      class="text-xs uppercase tracking-widest text-[#FFD700] font-semibold"
+                    >
+                      Afiliasi Institusi
+                    </p>
+                    <p
+                      class="font-serif text-lg font-bold text-[#FAF6F0] mt-0.5"
+                    >
+                      Fakultas Ekonomi dan Bisnis
+                    </p>
+                    <p class="text-sm text-[#F0DDE1]">Universitas Pekalongan</p>
+                    <div
+                      class="flex items-center gap-1.5 text-xs text-[#E0C5CB] mt-2"
+                    >
+                      <i
+                        data-lucide="map-pin"
+                        class="w-3.5 h-3.5 text-[#FF4500] shrink-0"
+                      ></i>
+                      <span
+                        >Jl. Sriwijaya No. 3, Kota Pekalongan, Jawa Tengah</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#1A0007] text-[#FAF6F0]">
+      <div class="h-1 w-full bg-golden-hour-line"></div>
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-16">
+        <div
+          class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-[#FAF6F0]/10"
+        >
+          <!-- Brand & Deskripsi -->
+          <div class="md:col-span-5 space-y-4">
+            <div class="inline-flex items-center gap-3 select-none">
+              <div
+                class="relative flex items-center justify-center w-11 h-11 rounded-full bg-[#FAF6F0] border-2 border-[#FFD700]/60 shadow-md"
+              >
+                <svg
+                  viewBox="0 0 64 64"
+                  class="w-8 h-8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="14"
+                    y="34"
+                    width="5"
+                    height="14"
+                    rx="1.5"
+                    fill="#800020"
+                    opacity="0.38"
+                  />
+                  <rect
+                    x="23"
+                    y="27"
+                    width="5"
+                    height="21"
+                    rx="1.5"
+                    fill="#800020"
+                    opacity="0.62"
+                  />
+                  <rect
+                    x="32"
+                    y="21"
+                    width="5"
+                    height="27"
+                    rx="1.5"
+                    fill="#800020"
+                    opacity="0.85"
+                  />
+                  <rect
+                    x="41"
+                    y="14"
+                    width="5"
+                    height="34"
+                    rx="1.5"
+                    fill="#520015"
+                  />
+                  <path
+                    d="M11 41C21 39 33 30 49 14M49 14H39M49 14V24"
+                    stroke="#FF4500"
+                    stroke-width="3.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="flex flex-col leading-tight">
+                <span
+                  class="font-serif font-bold tracking-wider text-base sm:text-lg text-[#FAF6F0]"
+                >
+                  KSPM FEB UNIKAL
+                </span>
+                <span
+                  class="text-[10px] sm:text-[11px] uppercase tracking-[0.18em] font-medium text-[#E6CED3]"
+                >
+                  Kelompok Studi Pasar Modal
+                </span>
+              </div>
+            </div>
+            <p class="text-sm text-[#D8BAC0] leading-relaxed max-w-md pt-2">
+              Kelompok Studi Pasar Modal Fakultas Ekonomi dan Bisnis Universitas
+              Pekalongan. Wadah edukasi, literasi, dan pengembangan kompetensi
+              investasi pasar modal bagi generasi muda.
+            </p>
+          </div>
+
+          <!-- Navigasi Website -->
+          <div class="md:col-span-4">
+            <h3
+              class="text-xs font-bold uppercase tracking-[0.2em] text-[#FFD700] mb-4"
+            >
+              Navigasi
+            </h3>
+            <ul class="grid grid-cols-2 gap-2.5">
+              <li>
+                <button
+                  type="button"
+                  data-scroll-target="home"
+                  class="text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors cursor-pointer"
+                >
+                  Home
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  data-scroll-target="about"
+                  class="text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors cursor-pointer"
+                >
+                  About
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  data-scroll-target="vision-mission"
+                  class="text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors cursor-pointer"
+                >
+                  Vision &amp; Mission
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  data-scroll-target="activities"
+                  class="text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors cursor-pointer"
+                >
+                  Activities
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  data-scroll-target="gallery"
+                  class="text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors cursor-pointer"
+                >
+                  Gallery
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  data-scroll-target="contact"
+                  class="text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors cursor-pointer"
+                >
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Kanal Resmi -->
+          <div class="md:col-span-3">
+            <h3
+              class="text-xs font-bold uppercase tracking-[0.2em] text-[#FFD700] mb-4"
+            >
+              Kanal Resmi
+            </h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="https://www.instagram.com/kspmunikal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-2 text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors"
+                >
+                  <svg
+                    class="w-4 h-4 text-[#FF4500] shrink-0"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                  </svg>
+                  <span>Instagram (@kspmunikal)</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://linktr.ee/kspmfebunikal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-2 text-sm text-[#E6CED3] hover:text-[#FFD700] transition-colors"
+                >
+                  <i
+                    data-lucide="external-link"
+                    class="w-4 h-4 text-[#FF4500]"
+                  ></i>
+                  <span>Linktree KSPM FEB UNIKAL</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Evergreen Copyright -->
+        <div
+          class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#C2A3AA]"
+        >
+          <p class="text-center sm:text-left">
+            &copy; KSPM FEB UNIKAL. Kelompok Studi Pasar Modal &mdash; Fakultas
+            Ekonomi dan Bisnis Universitas Pekalongan.
+          </p>
+          <p class="text-center sm:text-right">
+            Official Digital Company Profile
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      id="gallery-lightbox"
+      class="hidden fixed inset-0 z-50 bg-[#1A0007]/95 backdrop-blur-lg flex items-center justify-center p-4 sm:p-8"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lightbox-title"
+    >
+      <div
+        id="lightbox-card"
+        class="relative max-w-4xl w-full bg-[#26000A] rounded-3xl overflow-hidden border border-[#FFD700]/25 shadow-2xl"
+      >
+        <!-- Close Button -->
+        <button
+          type="button"
+          id="lightbox-close"
+          class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-[#26000A]/80 border border-[#FFD700]/30 text-[#FAF6F0] hover:bg-[#FF4500] hover:border-[#FF4500] flex items-center justify-center transition-colors cursor-pointer"
+          aria-label="Tutup tampilan foto"
+        >
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+
+        <!-- Previous Button -->
+        <button
+          type="button"
+          id="lightbox-prev"
+          class="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-[#26000A]/80 border border-[#FFD700]/30 text-[#FAF6F0] hover:bg-[#FF4500] hover:border-[#FF4500] flex items-center justify-center transition-colors cursor-pointer"
+          aria-label="Foto sebelumnya"
+        >
+          <i data-lucide="chevron-left" class="w-5 h-5"></i>
+        </button>
+
+        <!-- Next Button -->
+        <button
+          type="button"
+          id="lightbox-next"
+          class="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-[#26000A]/80 border border-[#FFD700]/30 text-[#FAF6F0] hover:bg-[#FF4500] hover:border-[#FF4500] flex items-center justify-center transition-colors cursor-pointer"
+          aria-label="Foto berikutnya"
+        >
+          <i data-lucide="chevron-right" class="w-5 h-5"></i>
+        </button>
+
+        <!-- Image Display -->
+        <div
+          class="max-h-[65vh] overflow-hidden bg-[#1A0007] flex items-center justify-center"
+        >
+          <img
+            id="lightbox-image"
+            src=""
+            alt=""
+            class="w-full max-h-[65vh] object-contain"
+          />
+        </div>
+
+        <!-- Caption Footer -->
+        <div class="p-6 sm:p-8 bg-[#3D0010] border-t border-[#FF4500]/25">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <span
+              id="lightbox-category"
+              class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#FFD700] text-[#26000A]"
+            ></span>
+            <span id="lightbox-counter" class="text-xs text-[#E0C5CB]"></span>
+          </div>
+          <h3
+            id="lightbox-title"
+            class="font-serif text-xl sm:text-2xl font-bold text-[#FAF6F0]"
+          ></h3>
+          <p
+            id="lightbox-description"
+            class="text-sm text-[#E6CED3] mt-2 leading-relaxed"
+          ></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
